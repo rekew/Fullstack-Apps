@@ -1,0 +1,15 @@
+.register{
+    margin : 40px 0;
+}
+
+.register-header{
+    text-align: center;
+}
+
+.register-forms{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
