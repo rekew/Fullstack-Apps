@@ -1,0 +1,25 @@
+.boxes{
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap : 50px;
+}
+
+.box{
+    border-radius: 8px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    background-color: #101204;
+}
+
+.box-item{
+    height: 40px;
+    border-radius: 8px;
+    padding: 6px 6px;
+    background-color: #22272B;
+    cursor: grab;
+    color: #8C9BAB;
+}

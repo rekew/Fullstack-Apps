@@ -1,4 +1,4 @@
-import '../styles/SecondaryButton.css'
+import '../styles/components/SecondaryButton.css'
 
 type SecondaryButtonProp = {
     text : string;

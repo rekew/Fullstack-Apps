@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar"
-import "../styles/Register.css"
+import "../styles/pages/Register.css"
 import Input from "../components/Input"
 import SecondaryButton from "../components/SecondaryButton"
 import { useState } from "react"

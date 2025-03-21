@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import logo from '../assets/Navbar/logo.svg'
-import '../styles/Navbar.css'
+import '../styles/components/Navbar.css'
 import SecondaryButton from './SecondaryButton'
 
 type NavbarProp = {
@@ -19,6 +19,10 @@ function Navbar({showLink} : NavbarProp){
         navigate('/home')
     }
 
+    function handleBoard(){
+        navigate('/board')
+    }
+
     return(
         <nav>
             <div onClick={handleHome} className="logo">
@@ -29,7 +33,7 @@ function Navbar({showLink} : NavbarProp){
                 <ul className = 'links'>
                     <li><a className = 'link' href="">Boards</a></li>
                     <li><a className = 'link' href="">Admin Panel</a></li>
-                    <SecondaryButton text = 'New Board'/>
+                    <SecondaryButton text = 'New Board' onClick={() => handleBoard()}/>
                     <li><a onClick={handleRegister} className = 'link' href="">Sign Up</a></li>
                 </ul>
             )}

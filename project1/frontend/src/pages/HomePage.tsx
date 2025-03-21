@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar"
-import "../styles/HomePage.css"
+import "../styles/pages/HomePage.css"
 import Button from "../components/Button"
 
 function HomePage(){

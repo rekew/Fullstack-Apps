@@ -1,4 +1,4 @@
-import '../styles/Input.css'
+import '../styles/components/Input.css'
 
 type InputProp = {
     text: string;

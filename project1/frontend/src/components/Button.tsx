@@ -1,4 +1,4 @@
-import "../styles/Button.css"
+import "../styles/components/Button.css"
 
 type ButtonProps = {
     text : string;
